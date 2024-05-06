@@ -96,6 +96,7 @@ UObject* USeAnimAssetFactory::FactoryCreateFile
 			Controller.AddBoneCurve(BoneTreeName, bShouldTransact);
 		}
 
+		
 		for (int32 BoneIndex = 0; BoneIndex < Anim->BonesInfos.Num(); BoneIndex++)
 		{
 			FBoneInfo& KeyFrameBone = Anim->BonesInfos[BoneIndex];
